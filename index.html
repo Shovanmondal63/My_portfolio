@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic Meta Setup -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Page Title -->
+    <title>Portfolio + Contact</title>
+
+    <!-- Font Awesome for Icons (GitHub, LinkedIn, etc.) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Google Font (Poppins) -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- External CSS File -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= HOME SECTION ================= -->
+<div class="contaner">
+    
+    <!-- Header / Navbar -->
+    <header class="animeted">
+        <!-- Logo -->
+        <a href="#" class="logo">Portfolio</a>
+
+        <!-- Navigation Links -->
+        <nav class="navbar">
+            <a href="#" class="active">Home</a>
+            <a href="#about">About me</a>
+            <a href="#work">Work</a>
+            <a href="#contact-me">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="home animeted">
+        
+        <!-- Text Content -->
+        <div class="home-details">
+            <h1>Shovan Mondal</h1>
+            <h2>Software Developer</h2>
+
+            <!-- Short Intro -->
+            <p>A passionate full-stack developer with experience in building interactive
+                web applications and Android solutions. Currently pursuing a Bachelor's
+                in Computer Applications from Maulana Abul Kalam Azad University of
+                Technology, while actively developing real-world projects. Strong
+                problem-solving abilities combined with analytical thinking and a
+                commitment to writing clean, efficient, and maintainable code.
+                Continuously learning and adapting to new technologies to deliver
+                impactful digital solutions.</p>
+
+            <!-- Resume Button + Social Links -->
+            <div class="downlode-social">
+                
+                <!-- Resume Link -->
+                <a href="resume.html" class="btn" onclick="downloadAndRedirect(event) ">Curriculum vitae</a>
+
+                <!-- Social Media Icons -->
+                <div class="social-icon">
+                    <a href="https://github.com/Shovanmondal63"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/shovanmondal"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/shovan_mondal_9"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100088462171658"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Profile Image -->
+        <div class="home-image">
+            <div class="img-box">
+                <img src="home.png" alt="Profile Image">
+            </div>
+        </div>
+    </section>
+</div>
+
+<!-- Section Divider -->
+<div class="divider"></div>
+
+
+<!-- ================= ABOUT SECTION ================= -->
+<div class="about-section" id="about">
+  <div class="about-card">
+
+    <!-- Section Title -->
+    <h1 class="about-title">About Me</h1>
+
+    <div class="about-content">
+
+      <!-- Left Side Content -->
+      <div class="about-left">
+
+        <!-- Description -->
+        <div class="about-box">
+          <h2>👤 Description</h2>
+          <p>A passionate full-stack developer building interactive web and Android applications.
+              Currently pursuing a BCA at Maulana Abul Kalam Azad University of Technology while working on real-world projects.</p>
+        </div>
+
+        <!-- Hobbies -->
+        <div class="about-box">
+          <h2>🎯 Hobbies</h2>
+          <p>GYM, Calisthenics, Reading,
+              Photo Editing, Video Editing, Open Source Contribution</p>
+        </div>
+
+      </div>
+
+      <!-- Right Side Content -->
+      <div class="about-right">
+
+        <!-- Education -->
+        <div class="about-box">
+          <h2>🎓 Education</h2>
+          <ul>
+            <li>Class XII: 86%</li>
+            <li>BCA | Aug 2024 - Aug 2028<BR>Maulana Abul Kalam Azad University of Technology</li>
+          </ul>
+        </div>
+
+        <!-- Personal Details -->
+        <div class="about-box">
+          <h2>📌 Personal Details</h2>
+          <ul>
+            <li>DOB: 18/05/2006</li>
+            <li>Nationality: Indian</li>
+            <li>Languages: Bengali, English, Hindi</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Section Divider -->
+<div class="divider"></div>
+
+
+<!-- ================= WORK SECTION ================= -->
+<div class="work-section" id="work">
+
+  <!-- Section Title -->
+  <h1 class="work-title">My Work</h1>
+
+  <div class="slider-container">
+
+    <!-- Left Navigation Button -->
+    <button class="nav-btn left" id="prev">&#10094;</button>
+
+    <!-- Slider Container -->
+    <div class="slider" id="slider">
+
+      <!-- Project Card 1 -->
+      <a href="https://github.com/Shovanmondal63/My-portfolio">
+        <div class="work-card">
+          <img src="Resume.png">
+          <span class="tag designer">visit my project </span>
+          <h3>Portfolio UI Design</h3>
+          <p>Modern glass UI portfolio built using HTML , CSS & JS.</p>
+          <a href="https://github.com/Shovanmondal63/My-portfolio" class="arrow-btn">&#8594;</a>
+        </div>
+      </a>
+
+      <!-- Project Card 2 -->
+      <a href="#">
+        <div class="work-card">
+          <img src="upcoming.png">
+          <span class="tag developer">visit my project</span>
+          <h3>Upcoming</h3>
+          <p>Update in future</p>
+          <a href="#" class="arrow-btn">&#8594;</a>
+        </div>
+      </a>
+
+      <!-- Project Card 3 -->
+      <a href="#">
+        <div class="work-card">
+          <img src="upcoming.png">
+          <span class="tag developer">visit my project</span>
+          <h3>Upcoming</h3>
+          <p>Update in future</p>
+          <a href="#" class="arrow-btn">&#8594;</a>
+        </div>
+      </a>
+
+      <!-- Repeated Upcoming Projects -->
+      <a href="#">
+        <div class="work-card">
+          <img src="upcoming.png">
+          <span class="tag developer">visit my project</span>
+          <h3>Upcoming</h3>
+          <p>Update in future</p>
+          <a href="#" class="arrow-btn">&#8594;</a>
+        </div>
+      </a>
+
+    </div>
+
+    <!-- Right Navigation Button -->
+    <button class="nav-btn right" id="next">&#10095;</button>
+
+  </div>
+</div>
+
+<!-- Section Divider -->
+<div class="divider"></div>
+
+
+<!-- ================= CONTACT SECTION ================= -->
+<div class="contact-section" id="contact-me">
+    <div class="container">
+
+        <!-- Section Title -->
+        <h2>Get in Touch</h2>
+
+        <!-- Contact Form (Web3Forms API) -->
+        <form action="https://api.web3forms.com/submit" method="POST">
+
+            <!-- API Key (Replace with your actual key) -->
+            <input type="hidden" name="access_key" value="Your value">
+
+            <!-- Name Inputs -->
+            <div class="row">
+                <input type="text" name="first_name" placeholder="First Name" required>
+                <input type="text" name="last_name" placeholder="Last Name" required>
+            </div>
+
+            <!-- Contact Inputs -->
+            <div class="row">
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="text" name="phone" placeholder="Phone Number" required>
+            </div>
+
+            <!-- Message Input -->
+            <div class="row">
+                <textarea name="message" placeholder="Message" required></textarea>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</div>
+
+<!-- External JavaScript File -->
+<script src="script.js"></script>
+
+</body>
+</html>
