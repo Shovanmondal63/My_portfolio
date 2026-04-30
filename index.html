@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shovan Mondal — Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= LOADER ================= -->
+<div class="loader-overlay" id="loader">
+    <div class="loader-bg"></div>
+    <div class="loader-content">
+        <div class="loader-logo">
+            <span class="loader-letter" style="--i:0">S</span>
+            <span class="loader-letter" style="--i:1">M</span>
+        </div>
+        <div class="loader-name">Shovan Mondal</div>
+        <div class="loader-role">Software Developer</div>
+        <div class="loader-bar-wrap">
+            <div class="loader-bar" id="loaderBar"></div>
+        </div>
+        <div class="loader-percent" id="loaderPercent">0%</div>
+        <div class="loader-particles">
+            <span></span><span></span><span></span>
+            <span></span><span></span><span></span>
+            <span></span><span></span><span></span>
+        </div>
+    </div>
+    <div class="loader-corner tl"></div>
+    <div class="loader-corner tr"></div>
+    <div class="loader-corner bl"></div>
+    <div class="loader-corner br"></div>
+</div>
+
+<!-- ================= MAIN SITE ================= -->
+<div class="site-wrapper" id="siteWrapper">
+
+<!-- ================= HOME SECTION ================= -->
+<div class="contaner">
+    
+    <header class="animeted">
+        <a href="#" class="logo">Portfolio</a>
+        <nav class="navbar">
+            <a href="#" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#work">Work</a>
+            <a href="#contact-me">Contact</a>
+        </nav>
+        <div class="nav-toggle" id="navToggle">
+            <span></span><span></span><span></span>
+        </div>
+    </header>
+
+    <!-- Floating orbs -->
+    <div class="orb orb1"></div>
+    <div class="orb orb2"></div>
+    <div class="orb orb3"></div>
+
+    <section class="home animeted">
+        <div class="home-details">
+            <div class="greeting reveal-up" style="--delay:.1s">Hello, I'm</div>
+            <h1 class="reveal-up" style="--delay:.2s">Shovan<br><span class="name-accent">Mondal</span></h1>
+            <h2 class="typewriter reveal-up" style="--delay:.3s">
+                <span id="typed"></span><span class="cursor-blink">|</span>
+            </h2>
+            <p class="reveal-up" style="--delay:.4s">A passionate full-stack developer building interactive web applications and Android solutions. Currently pursuing a Bachelor's in Computer Applications at MAKAUT, crafting clean, efficient, and impactful digital experiences.</p>
+            <div class="downlode-social reveal-up" style="--delay:.5s">
+                <a href="resume.html" class="btn" id="cvBtn">
+                    <i class="fas fa-file-alt"></i> Curriculum Vitae
+                </a>
+                <div class="social-icon">
+                    <a href="https://github.com/Shovanmondal63" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/shovanmondal" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/shovan_mondal_9" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100088462171658" title="Facebook"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="home-image reveal-scale" style="--delay:.3s">
+            <div class="img-ring img-ring1"></div>
+            <div class="img-ring img-ring2"></div>
+            <div class="img-box">
+                <img src="home.png" alt="Shovan Mondal">
+            </div>
+            <div class="img-badge">
+                <i class="fas fa-code"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scroll cue -->
+    <div class="scroll-cue">
+        <div class="scroll-dot"></div>
+    </div>
+</div>
+
+<div class="divider">
+    <div class="divider-line"></div>
+    <div class="divider-icon"><i class="fas fa-terminal"></i></div>
+    <div class="divider-line"></div>
+</div>
+
+<!-- ================= ABOUT SECTION ================= -->
+<div class="about-section" id="about">
+  <div class="about-card scroll-reveal">
+    <h1 class="about-title">About <span class="accent">Me</span></h1>
+    <div class="about-content">
+      <div class="about-left">
+        <div class="about-box">
+          <div class="about-box-icon"><i class="fas fa-user-circle"></i></div>
+          <h2>Description</h2>
+          <p>A passionate full-stack developer building interactive web and Android applications. Currently pursuing a BCA at Maulana Abul Kalam Azad University of Technology while working on real-world projects.</p>
+        </div>
+        <div class="about-box">
+          <div class="about-box-icon"><i class="fas fa-star"></i></div>
+          <h2>Hobbies</h2>
+          <p>GYM &amp; Calisthenics · Reading · Photo Editing · Video Editing · Open Source Contribution</p>
+        </div>
+      </div>
+      <div class="about-right">
+        <div class="about-box">
+          <div class="about-box-icon"><i class="fas fa-graduation-cap"></i></div>
+          <h2>Education</h2>
+          <ul>
+            <li><span class="label">Class X</span> 64%</li>
+            <li><span class="label">Class XII</span> 86%</li>
+            <li><span class="label">BCA</span> Aug 2024 – Aug 2028<br><small>Maulana Abul Kalam Azad University of Technology</small></li>
+          </ul>
+        </div>
+        <div class="about-box">
+          <div class="about-box-icon"><i class="fas fa-map-marker-alt"></i></div>
+          <h2>Personal Details</h2>
+          <ul>
+            <li><span class="label">DOB</span> 18 May 2006</li>
+            <li><span class="label">Nationality</span> Indian</li>
+            <li><span class="label">Languages</span> Bengali · English · Hindi</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Skills bar -->
+    <div class="skills-section">
+        <h2 class="skills-title">Core Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-item" data-skill="HTML/CSS" data-level="90">
+                <div class="skill-label"><span>HTML / CSS</span><span class="skill-pct">90%</span></div>
+                <div class="skill-bar"><div class="skill-fill" style="--pct:90%"></div></div>
+            </div>
+            <div class="skill-item" data-skill="JavaScript" data-level="78">
+                <div class="skill-label"><span>JavaScript</span><span class="skill-pct">78%</span></div>
+                <div class="skill-bar"><div class="skill-fill" style="--pct:78%"></div></div>
+            </div>
+            <div class="skill-item" data-skill="Java" data-level="75">
+                <div class="skill-label"><span>Java</span><span class="skill-pct">75%</span></div>
+                <div class="skill-bar"><div class="skill-fill" style="--pct:75%"></div></div>
+            </div>
+            <div class="skill-item" data-skill="Python" data-level="70">
+                <div class="skill-label"><span>Python</span><span class="skill-pct">70%</span></div>
+                <div class="skill-bar"><div class="skill-fill" style="--pct:70%"></div></div>
+            </div>
+            <div class="skill-item" data-skill="MySQL" data-level="72">
+                <div class="skill-label"><span>MySQL</span><span class="skill-pct">72%</span></div>
+                <div class="skill-bar"><div class="skill-fill" style="--pct:72%"></div></div>
+            </div>
+            <div class="skill-item" data-skill="PHP" data-level="60">
+                <div class="skill-label"><span>PHP</span><span class="skill-pct">60%</span></div>
+                <div class="skill-bar"><div class="skill-fill" style="--pct:60%"></div></div>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+<div class="divider">
+    <div class="divider-line"></div>
+    <div class="divider-icon"><i class="fas fa-laptop-code"></i></div>
+    <div class="divider-line"></div>
+</div>
+
+<!-- ================= WORK SECTION ================= -->
+<div class="work-section" id="work">
+  <div class="work-header scroll-reveal">
+    <h1 class="work-title">My <span class="accent">Work</span></h1>
+    <p class="work-subtitle">Projects I've built with passion &amp; precision</p>
+  </div>
+
+  <div class="slider-container">
+    <button class="nav-btn left" id="prev"><i class="fas fa-chevron-left"></i></button>
+    <div class="slider" id="slider">
+
+      <a href="https://github.com/Shovanmondal63/My_portfolio" class="work_link">
+        <div class="work-card">
+          <div class="work-card-glow"></div>
+          <img src="Resume.png" alt="Portfolio UI">
+          <span class="tag designer"><i class="fas fa-palette"></i> Design</span>
+          <h3>Portfolio UI Design</h3>
+          <p>Modern glassmorphism portfolio built with HTML, CSS &amp; JS featuring smooth animations.</p>
+          <div class="card-footer">
+            <div class="tech-tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+            <a href="https://github.com/Shovanmondal63/My_portfolio" class="arrow-btn"><i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </a>
+
+      <a href="#">
+        <div class="work-card upcoming-card">
+          <div class="work-card-glow"></div>
+          <div class="upcoming-badge"><i class="fas fa-clock"></i> Coming Soon</div>
+          <div class="upcoming-placeholder">
+            <i class="fas fa-rocket"></i>
+          </div>
+          <span class="tag developer"><i class="fas fa-code"></i> Dev</span>
+          <h3>Upcoming Project</h3>
+          <p>Something exciting is in the works. Stay tuned for updates!</p>
+          <div class="card-footer">
+            <div class="tech-tags"><span>TBA</span></div>
+            <a href="#" class="arrow-btn"><i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </a>
+
+      <a href="#">
+        <div class="work-card upcoming-card">
+          <div class="work-card-glow"></div>
+          <div class="upcoming-badge"><i class="fas fa-clock"></i> Coming Soon</div>
+          <div class="upcoming-placeholder">
+            <i class="fas fa-mobile-alt"></i>
+          </div>
+          <span class="tag developer"><i class="fas fa-code"></i> Dev</span>
+          <h3>Android App</h3>
+          <p>A mobile solution currently under development. Updates coming soon.</p>
+          <div class="card-footer">
+            <div class="tech-tags"><span>Java</span><span>Android</span></div>
+            <a href="#" class="arrow-btn"><i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </a>
+
+      <a href="#">
+        <div class="work-card upcoming-card">
+          <div class="work-card-glow"></div>
+          <div class="upcoming-badge"><i class="fas fa-clock"></i> Coming Soon</div>
+          <div class="upcoming-placeholder">
+            <i class="fas fa-database"></i>
+          </div>
+          <span class="tag marketer"><i class="fas fa-server"></i> Backend</span>
+          <h3>Full-Stack App</h3>
+          <p>A full-stack application integrating front-end and back-end technologies.</p>
+          <div class="card-footer">
+            <div class="tech-tags"><span>PHP</span><span>MySQL</span></div>
+            <a href="#" class="arrow-btn"><i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </a>
+    </div>
+    <button class="nav-btn right" id="next"><i class="fas fa-chevron-right"></i></button>
+  </div>
+</div>
+
+<div class="divider">
+    <div class="divider-line"></div>
+    <div class="divider-icon"><i class="fas fa-envelope"></i></div>
+    <div class="divider-line"></div>
+</div>
+
+<!-- ================= CONTACT SECTION ================= -->
+<div class="contact-section" id="contact-me">
+    <div class="contact-bg-pattern"></div>
+    <div class="container scroll-reveal">
+        <h2>Get In <span class="accent">Touch</span></h2>
+        <p>Have a project in mind? Let's create something amazing together.</p>
+
+        <div class="contact-info-strip">
+            <div class="contact-info-item">
+                <i class="fas fa-envelope"></i>
+                <span>shovanmmondalmm@gmail.com</span>
+            </div>
+            <div class="contact-info-item">
+                <i class="fas fa-phone"></i>
+                <span>+91 8016599975</span>
+            </div>
+            <div class="contact-info-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Kolkata, India</span>
+            </div>
+        </div>
+
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="Your value">
+            <div class="row">
+                <div class="input-group">
+                    <i class="fas fa-user input-icon"></i>
+                    <input type="text" name="first_name" placeholder="First Name" required>
+                </div>
+                <div class="input-group">
+                    <i class="fas fa-user input-icon"></i>
+                    <input type="text" name="last_name" placeholder="Last Name" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-group">
+                    <i class="fas fa-envelope input-icon"></i>
+                    <input type="email" name="email" placeholder="Email Address" required>
+                </div>
+                <div class="input-group">
+                    <i class="fas fa-phone input-icon"></i>
+                    <input type="text" name="phone" placeholder="Phone Number" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-group full-width">
+                    <i class="fas fa-comment input-icon textarea-icon"></i>
+                    <textarea name="message" placeholder="Your Message..." required></textarea>
+                </div>
+            </div>
+            <button type="submit" class="submit-btn">
+                <span>Send Message</span>
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </form>
+    </div>
+</div>
+
+<!-- ================= FOOTER ================= -->
+<footer class="site-footer">
+    <div class="footer-inner">
+        <p class="footer-copy">&copy; 2025 Shovan Mondal. Crafted with <i class="fas fa-heart"></i> and code.</p>
+        <div class="footer-social">
+            <a href="https://github.com/Shovanmondal63"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/shovanmondal"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/shovan_mondal_9"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+</footer>
+
+</div><!-- end site-wrapper -->
+
+<script src="script.js"></script>
+</body>
+</html>
